@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1017</width>
+    <width>1543</width>
     <height>686</height>
    </rect>
   </property>
@@ -17,7 +17,7 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>230</x>
       <y>30</y>
       <width>80</width>
       <height>24</height>
@@ -40,7 +40,7 @@
      <string>Loaded image</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="label_loaded">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -56,8 +56,8 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>30</y>
+      <x>1230</x>
+      <y>50</y>
       <width>111</width>
       <height>24</height>
      </rect>
@@ -66,7 +66,7 @@
      <string>Gaussian Blur</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="label_sharpen">
     <property name="geometry">
      <rect>
       <x>550</x>
@@ -84,12 +84,51 @@
      <rect>
       <x>690</x>
       <y>100</y>
-      <width>91</width>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sharpened image</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>100</y>
+      <width>111</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
      <string>Blurred image</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>40</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sharpen</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_blur">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>120</y>
+      <width>441</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
@@ -98,7 +137,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1017</width>
+     <width>1543</width>
      <height>21</height>
     </rect>
    </property>
